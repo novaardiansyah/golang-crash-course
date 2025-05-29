@@ -5,11 +5,12 @@ import (
 )
 
 func main() {
-	age := 30
-
-	if age < 18 {
-		fmt.Println("You are a minor.")
-	} else {
-		fmt.Println("You are an adult.")
+	color := "red"
+	
+	switch {
+		case color == "red":
+			fmt.Println("The color is red.")
+		default:
+			fmt.Println("The color is not red.")
 	}
 }
