@@ -1,2 +1,1 @@
-# golang-crash-course
-Golang Crash Course
+# Golang Crash Course
