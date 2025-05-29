@@ -12,4 +12,7 @@ func main() {
 
 	result := calc.Add(3, 4)
 	fmt.Printf("The result of adding 3 and 4 is: %d\n", result)
+
+	multiply := calc.Multiply(3, 4)
+	fmt.Printf("The result of multiplying 3 and 4 is: %d\n", multiply)
 }
